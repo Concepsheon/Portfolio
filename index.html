@@ -14,15 +14,18 @@
 	
 	<link rel="icon" href="data:;base64,=">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='style.css'>
   </head>
   <body>
   	
   	
+  	<!-- about and skills section -->
+  	
   	<div id="about" class="section">
   	  <a id="home" href="#" class="pull-right"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
-  		<h1>Hello,</h1>
+  		<h1>Hello</h1>
   		<img src="https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg" alt="profile picture">
   		<p>I am Concepsheon Hall, a self-taught Nodejs developer, based in a small town in Georgia. 
   		I have over 2+ years of experience in Javascript, frontend development, and backend development.</p>
@@ -40,14 +43,14 @@
   		  <hr class="divider">
   		  
   		  <div class="row">
-  		    <div class="col-md-4">
+  		    <div class="col-md-3">
   		      <h4>Languages</h4>
   		      <p>Javascript</p>
   		      <p>NodeJs</p>
   		      <p>PHP</p>
   		    </div>
   		    
-  		    <div class="col-md-4">
+  		    <div class="col-md-3">
   		      <h4>Frameworks/Libraries</h4>
   		      <p>AngularJS</p>
   		      <p>Express</p>
@@ -55,20 +58,31 @@
   		      <p>jQuery</p>
   		    </div>
   		    
-  		    <div class="col-md-4">
+  		    <div class="col-md-3">
   		      <h4>Databases</h4>
   		      <p>MongoDB</p>
   		      <p>MySQL</p>
   		    </div>
+  		    
+  		    <div class="col-md-3">
+  		      <h4>Other</h4>
+  		      <p>Git/Github</p>
+  		      <p>Responsive Web Design</p>
+  		    </div>
+  		    
   		  </div>
   		</div>
   		
   		<hr>
-  		<h3>Links</h3>
-  		<p><a href="https://github.com/Concepsheon?tab=repositories">Github</a></p>
-  		<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> raine20137@gmail.com</p>
+  		
+  		<div class="footer">
+  		  <a href="https://github.com/Concepsheon?tab=repositories"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+  		  <p><i class="fa fa-envelope-o" aria-hidden="true"></i> raine20137@gmail.com</p>
+  		</div>
   	</div>
   	
+  	
+  	<!-- main page -->
   	
   	<div class="container">
   	  <nav>
@@ -84,20 +98,27 @@
   		</header>
   	</div>
   	
+  	
+  	<!-- portfolio section -->
+  	
   	<div id="portfolio" class="section">
   	    <button id="portHome" type="button" class="btn btn-default btn-sm pull-right"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-  			<h1>Projects</h1>
+  			<div class="portfolio-heading">
+  			  <h1>Projects</h1>
+  			  <p>These are a few of my projects that I had the most fun developing on my own and during bootcamp.</p>
+  			</div>
+  			<hr>
   			<div class="project">
-  			  <h1>Nightlife App</h1>
+  			  <h2>Nightlife App</h2>
   				<a href="https://ancient-river-45611.herokuapp.com/"><img src="images/nightlife.png" alt="nightlife app screenshot"></a>
   				<p>This is a nightlife coordination app that I built while attending bootcamp.</p>
   				<p>You can search for bars in your area and see how many people in your area will be going there. As a logged in user you can indicate
   				whether you are going or not.</p>
-  				<p>Made with MongoDB, Express, AngularJS, and NodeJS</p>
+  				<p>Made with Yelp API, MongoDB, Express, AngularJS, and NodeJS</p>
   			</div>
   			
   			<div class="project">
-  			  <h1>Book Club</h1>
+  			  <h2>Book Club</h2>
   				<a href="https://book-clubs.herokuapp.com/#/"><img src="images/book.png" alt="book club app screenshot"></a>
   				<p>A book club web app where logged in users can start and join book clubs. Users can search for a book club to start or join an existing one and
   				share their thoughts and ideas about the book with other members.</p>
@@ -105,15 +126,17 @@
   			</div>
   			
   			<div class="project">
-  			  <h1>Post App</h1>
+  			  <h2>Post App</h2>
   				<a href="https://limitless-brushlands-92762.herokuapp.com/"><img src="images/posts.png" alt="post app screenshot"></a>
   				<p>This is a posting web app similar to reddit or hackernews. You can view all posts and omments and as a logged in user you can post your own posts and links. 
   				Logged in users can also comment and upvote posts and comments that they like.</p>
   				<p>This web app was made with MongoDB, Express, AngularJS, and NodeJS</p>
   				</div>
   				
-  				<h3>For more code and other projects</h3>
-  				<a href="https://github.com/Concepsheon?tab=repositories">Github</a>
+  				<div class="footer">
+  				  <h3>For more projects and to see what I'm currently working on</h3>
+  				  <a href="https://github.com/Concepsheon?tab=repositories"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+  				</div>
   				
   	</div>
   	

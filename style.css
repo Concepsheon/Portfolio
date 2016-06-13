@@ -33,7 +33,7 @@ body {
 
 #about img {
     float:left;
-    width:200px;
+    width:250px;
     height:200px;
     margin-right:15px;
     margin-left: 10px;
@@ -118,36 +118,28 @@ nav .portfolio {
     bottom: 25px;
 }
 
-
 .divider {
     background:black;
     color:black;
     height:1px;
     width:15%;
-    position: relative;
 }
-
-.divider:before {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-.divider:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-top-color: slategray;
-	border-width: 10px;
-	margin-left: -10px;
-}
-
 
 .col-md-4 h4 {
     font-weight: bold;
 }
 
+#portfolio .portfolio-heading {
+    text-align: center;
+}
 
+
+.footer {
+    background:lightblue;
+    color:white;
+    position: absolute;
+    left:0;
+    width:100%;
+    padding:15px;
+    text-align: center;
+}
