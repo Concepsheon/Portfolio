@@ -139,8 +139,11 @@ nav .portfolio {
     color:white;
     position: absolute;
     left:0;
-    bottom:0;
     width:100%;
     padding:15px;
     text-align: center;
+}
+
+.about-footer {
+	bottom: 0;
 }
